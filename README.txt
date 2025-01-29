@@ -1,4 +1,4 @@
-Attach LMStudioClient.cs to an object in a Unity scene. Fill out the URL and Model fields. These, along with the System Prompt and User Prompt, are adjustable in the inspector.
+Attach LMStudioClient.cs to a GameObject in a Unity scene. Fill out the URL and Model fields. These, along with the System Prompt and User Prompt, are adjustable in the inspector.
 
 It will attempt to make a request to LM Studio when the game starts, unless you disable this behavior in the script. Check the Unity console for successful output.
 
