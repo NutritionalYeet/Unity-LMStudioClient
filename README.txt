@@ -1,4 +1,4 @@
-Attach this script to an object in your scene. Fill out the URL and Model fields.
+Attach this script to an object in a Unity scene. Fill out the URL and Model fields.
 
 It will attempt to make a request to LM Studio when the game starts, unless you disable this behavior in the script.
 
