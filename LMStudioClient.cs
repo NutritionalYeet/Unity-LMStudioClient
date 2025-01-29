@@ -56,6 +56,7 @@ public class LMStudioClient : MonoBehaviour
 
     /// <summary>
     /// Sends a request to the LM and invokes a callback if successful.
+    /// Currently processes all received data at the same time.
     /// </summary>
     /// <returns></returns>
     IEnumerator SendRequest(Action onComplete)
