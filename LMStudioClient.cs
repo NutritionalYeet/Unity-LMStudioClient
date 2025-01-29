@@ -42,7 +42,8 @@ public class LMStudioClient : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(SendRequest(() => HandleOutput())); //Comment out this line if you don't want this to happen immediately.
+        if (runOnStart)
+                StartCoroutine(SendRequest(() => HandleOutput()));
     }
 
     /// <summary>
