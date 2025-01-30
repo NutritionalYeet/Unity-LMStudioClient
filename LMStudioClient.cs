@@ -43,7 +43,7 @@ public class LMStudioClient : MonoBehaviour
     void Start()
     {
         if (runOnStart)
-                StartCoroutine(SendRequest(() => HandleOutput()));
+            StartCoroutine(SendRequest(() => HandleOutput()));
     }
 
     /// <summary>
@@ -63,10 +63,6 @@ public class LMStudioClient : MonoBehaviour
     {
 	if (string.IsNullOrWhiteSpace (url)) {
             Debug.LogError("Please input a URL into the inspector; i.e.: \"http://localhost:1234/v1/chat/completions\"");
-            yield break;
-        }
-	else if (string.IsNullOrWhiteSpace (model)) {
-            Debug.LogError("Please input a model into the inspector; i.e.: \"path/to_model.gguf\"");
             yield break;
         }
 
